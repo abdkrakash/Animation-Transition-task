@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(216, 204, 204);
+    }
+    img{
+ 
+    animation-name: square ;
+   animation-duration: 4s;
+
+   padding: 40px;
+
+    }
+    @keyframes square {
+    0%{
+/* translate: 0 400px; */
+rotate:-45deg;
+transform-origin: 40%  20% ;
+
+    
+
+    }}

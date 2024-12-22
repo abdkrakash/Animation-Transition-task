@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(216, 204, 204);
+    padding: 200px;
+
+    }
+    button{
+ 
+    animation-name: square ;
+   animation-duration: 4s;
+   background-color: blue;
+   color: aliceblue;
+   border-radius: 5px;
+   width: 100px;
+
+
+    }
+    button:hover{
+        scale: 2; 
+
+        
+    }

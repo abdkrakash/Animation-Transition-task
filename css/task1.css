@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    }
+    div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: square ;
+   animation-duration: 4s;
+
+    
+    
+    
+    }
+    @keyframes square {
+    0%{
+translate: 0 0;
+background-color: aqua;
+}
+    
+
+    100%{
+    
+        translate: 0 0;
+        background-color: red;
+        
+    }
+    }

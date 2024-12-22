@@ -1,0 +1,58 @@
+body{
+background-color: black;
+}
+div{
+width: 100px;
+height: 100px;
+background-color: red;
+animation-name: square ;
+animation-duration: 3s;
+animation-delay: 0.5s;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-fill-mode:both ;
+animation-timing-function: linear; 
+animation-play-state: running;
+
+/* animation: square 3s linear 0.5s 1 normal both running ; */
+
+}
+@keyframes square {
+
+0%{
+translate: 0 0;
+background-color: aqua;
+rotate: 0;
+}
+25%{
+
+translate: 0 500px;
+background-color: aquamarine;
+rotate: 90deg;
+}
+
+50%{
+    translate: 400px 500px;
+    background-color: blueviolet;
+    rotate: 180deg;
+
+}
+
+
+75%{
+
+translate: 400px 0;
+background-color:cadetblue ;
+rotate: 270deg;
+
+}
+100%{
+
+    translate: 0 0;
+    background-color: chartreuse;
+    rotate: 360deg;
+
+    }
+
+
+}

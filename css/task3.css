@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    }
+    div{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    animation-name: square ;
+    animation-duration: 4s;
+   
+    
+    }
+    @keyframes square {
+    
+   
+    25%{
+    
+    background-color: red;
+    }
+
+    50%{        background-color: yellow;
+
+
+    }
+    
+    75%{
+        background-color: green;
+    
+    }
+    
+    
+   
+    100%{
+    
+        background-color: blue;
+    
+        }
+    
+    
+    }
